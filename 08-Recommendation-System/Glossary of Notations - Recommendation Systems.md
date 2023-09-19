@@ -42,7 +42,7 @@ X<sub>ij</sub>= The i<sup>th</sup> row and the j<sup>th</sup> column of matrix X
 
 𝑓<sub>𝑜𝑏𝑠</sub>(𝑥<sub>𝑖</sub>, 𝑦<sub>𝑗</sub>) = A mathematical function/model learned to make predictions using the observed features of users and items
 
-𝑓<sub>𝑙𝑎𝑡𝑒𝑛𝑡</sub>(𝑢<sub>𝑖</sub>, 𝑣<sub>𝑗</sub>) = A mathematical function/model learned to make predictions using the latent features of users and items
+𝑓<sub>𝑙𝑎𝑡𝑒𝑛𝑡</sub>(𝑢<sub>𝑖</sub>, 𝑣<sub>𝑗<sub>) = A mathematical function/model learned to make predictions using the latent features of users and items
 
 𝐿<sup>𝑜𝑏𝑠</sup> = The matrix of values predicted by the function𝑓<sup>𝑜𝑏𝑠</sup>
 
@@ -54,7 +54,7 @@ X<sub>ij</sub>= The i<sup>th</sup> row and the j<sup>th</sup> column of matrix X
 
 $\hat{L}$<sub>ij</sub>= Combined estimate value of the i<sup>th</sup> row and the j<sup>th</sup> column of  𝐿<sup>𝑜𝑏𝑠</sup> and 𝐿<sup>𝑀𝐸</sup>
 
-𝐿<sub>ij</sub>(t) = Value of thei<sup>th</sup>  row and the j<sup>th</sup> column at time of matrix 𝐿
+𝐿<sub>ij</sub(t) = Value of thei<sup>th</sup>  row and the j<sup>th</sup> column at time of matrix 𝐿
 
 𝑢<sub>𝑖</sub>(𝑡)<sup>𝑇</sup> = The  𝑖<sup>𝑡ℎ</sup> latent feature at time 𝑡 of matrix 𝑈
 
@@ -84,7 +84,7 @@ $\hat{𝑍}$= Result of performing matrix estimation over the matrix 𝑍
 
 $\hat{𝐿}$<sub>𝑖𝑗</sub>(𝑡) = Predicted value of the i<sup>𝑡ℎ</sup> row and the j<sup>𝑡ℎ</sup> column at time 𝑡
 
-𝑓(𝑢<sub>𝑖</sub>(𝑡), 𝑣<sub>𝑗</sub>(𝑡))= A mathematical function/model learned with inputs as thei<sup>𝑡ℎ</sup> latent feature of users at time 𝑡 and j<sup>𝑡ℎ</sup> latent feature of items at time 𝑡
+𝑓(𝑢<sub>𝑖</sub>(𝑡), 𝑣<sub>𝑗</sub>(𝑡))= A mathematical function/model learned with inputs as thei<sup>𝑡ℎ</sup> latent feature of users at time and j<sup>𝑡ℎ</sup> latent feature of items at time 𝑡
 
 𝐿<sub>𝑖𝑗𝑘</sub>(𝑡) = Likelihood of the i<sup>𝑡ℎ</sup> user matching with the j<sup>𝑡ℎ</sup> item for a given measurement 𝑘 at some time 𝑡
 
@@ -96,7 +96,7 @@ $\hat{𝐿}$<sub>𝑖𝑗</sub>(𝑡) = Predicted value of the i<sup>𝑡ℎ</su
 
 $\hat{𝐿}$<sub>𝑖𝑗𝑘</sub>(𝑡) = Predicted likelihood of the i<sup>𝑡ℎ</sup> user matching with the j<sup>𝑡ℎ</sup> item in a user-item interaction matrix for a given measurement at a given time𝑘 𝑡
 
-$\hat{𝐿}$<sup>𝑑𝑖𝑓𝑓</sup><sub>𝑖𝑗𝑘</sub>(𝑡)= Result of matrix estimation on 𝑍<sup>𝑘</sup>
+𝐿<sup>𝑑𝑖𝑓𝑓</sup><sub>𝑖𝑗𝑘</sub>(𝑡)= Result of matrix estimation on 𝑍<sup>𝑘</sup>
 
 𝐿<sup>𝑜𝑏𝑠</sup><sub>𝑖𝑗𝑘</sub> = Predicted likelihood of the i<sup>𝑡ℎ</sup> user matching with the j<sup>𝑡ℎ</sup> item in a user-item interaction matrix for a given measurement 𝑘
 
